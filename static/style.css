@@ -1,0 +1,392 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Oswald:wght@700&family=Roboto:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Mulish:wght@300;400;700&family=Oswald:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Handlee&family=Oswald:wght@700&display=swap');
+
+/*Fonts and Background Image*/
+.body-style {
+font-family:'Roboto', 'Mulishsans', sans-serif;
+background: url(../static/images/wallpaper.jpg) no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+background-size: cover;
+background-color: none;
+}
+
+/*General*/ 
+
+
+
+.row {
+margin: 0;
+}
+
+.container {
+padding: 70px 0;
+}
+
+p, li {
+color: black;
+font-size: 14px;
+
+}
+
+/*Navigation Bar*/
+header, .navbar {
+background-color: #5581A8
+}
+
+#nav-container {
+padding-top: 0;
+padding-bottom: 0;
+}
+
+#accomodorms {
+width: 90px;
+}
+
+.navbar-brand{
+padding: 0;
+color: white;	
+}
+
+.navbar-brand:hover {
+color: black;		
+}
+
+
+.navbar-expanded-lg .navbar-nav .nav-link {
+padding: 1rem .8rem;	
+}
+
+
+/*Links*/
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: black;
+}
+
+/* selected link */
+a:active {
+  color: #55acee;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+
+/* Slider */	
+.container-fluid {
+padding: 0;
+}
+
+h5{
+color: white;
+font-family: 'Anton', sans-serif;
+text-shadow: 2px 2px black;
+}
+
+.linkcarousel{
+color: white;
+font-family: 'Anton', sans-serif;
+text-shadow: 2px 2px black;
+}
+
+
+/* Form choose destination */
+
+form{
+background-color: white; 
+border-style: solid;
+border-bottom-width:2px;
+border-top-width: 2px;
+border-right-width:2px;
+border-left-width: 2px;
+border-color: black;
+margin-right: 815px;
+padding-left: 20px;
+padding: 15px;
+position: relative;
+top: 85px;
+left: 420px;
+opacity: 0.9;
+max-width: 50%;
+
+}
+
+
+
+
+input {
+display: flex block;
+
+}
+
+h4 {
+color: withe;
+font-family: 'Anton', sans-serif;
+
+}
+
+/* Footer */
+
+.footer.footer {
+background-color: #5581A8;
+height: 100%;
+position: relative;
+
+}
+
+.contactus {
+text-decoration: none;
+
+}
+
+.contact {
+margin-left: 45px;
+
+}
+
+.footer.footer .container {
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+	
+}
+
+.footer.footer .container > div {
+flex-grow: 1;
+flex-basis: 0;
+padding: 3rem 0.9rem;
+}
+
+.footer h2 {
+color: white;
+}
+
+.footer p {
+font-size: 15px;
+	
+}
+	
+.travellinfo a {
+color: #1C3661;
+
+}
+
+.travellinfo a visited {
+  color: white;
+}
+
+.travellinfo a:hover {
+  color: white;
+}
+
+
+/*Form to subscribe and receive offers*/
+
+form-2{
+background-color: white; 
+border-style: solid;
+border-bottom-width:1px;
+border-top-width: 1px;
+border-right-width:1px;
+border-left-width: 1px;
+border-color: black;
+margin-right: 300px;
+padding-left: none;
+padding-bottom: 15px;
+position: relative;
+border-radius: 20px;
+opacity: 0.9;
+bottom: 5px;
+
+}
+
+h5-2{
+color: Blue;
+font-family: 'Anton', sans-serif;
+text-shadow: 2px 2px white;
+}
+
+
+
+
+
+
+div-6 {
+
+border-style: solid;
+border-bottom-width:1px;
+border-top-width: 1px;
+border-right-width:1px;
+border-left-width: 1px;
+border-color: black;
+	
+}
+
+
+/*Form Page*/
+
+		*{
+		padding:0;
+		margin:0;
+   
+}
+
+        body-2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+			margin: 2px;
+			background: url(images/casas.jpg) no-repeat center center fixed; 
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			background-size: cover;
+			background-color: none;
+        }
+
+        #travelform{
+            width:  400px;
+            padding: 100px;
+            text-transform: uppercase;
+            background-color: white;
+
+        }
+
+
+     .form-3{
+
+     }
+     .formgroup{
+        margin: 20px 0;
+        position: relative;
+     }
+
+     .formgroup  label{
+        display:inline-block;
+        margin-bottom: 5px;
+
+     }
+
+     .formgroup input{
+        display: block;
+        width: 100%;
+        padding: 10px;
+
+     }
+     .sucess input{
+        border: 3px green solid;
+     }
+
+     .error input{
+        border: 3px red solid;
+
+     }
+     .sucess i.fa-check-circle{
+        visibility:visible;
+        color:green;
+     }
+
+
+
+     .formgroup i {
+        position:absolute;
+        right:10px;
+        top: 35px;
+        visibility: hidden;
+
+     }
+     .sucess i.fa-check-circle{
+        visibility:visible;
+        color:green;
+
+     }
+     .error i.fa-exclamation-circle{
+        visibility: visible;
+        color: red;
+
+
+     }
+
+
+     .formgroup p {
+        font-size: 15px;
+        color: red;
+        visibility: hidden;
+     }
+     .error p {
+         visibility: visible;
+     }
+
+
+
+
+
+/*Message Page*/
+
+div-5 {
+border-style: solid;
+border-bottom-width:1px;
+border-top-width: 1px;
+border-right-width:1px;
+border-left-width: 1px;
+border-color: black;
+	
+	
+}
+.Signup{ text-align: center;
+   font-size: 15px;
+   color: #1C3661;
+   text-decoration-color: #1C3661;
+   text-emphasis-color: #1C3661;
+   background-color: #5581A8;
+    
+}
+
+.body-style{background-color: #5581A8;
+color: #1C3661;
+text-decoration: #1C3661;
+text-emphasis-color: #1C3661;
+}
+
+.form-control {
+   width: 600px; 
+}
+
+.form.submit{text-align: center;}
+
+.Login{ text-align: center;
+   font-size: 15px;
+   color: #1C3661;
+   text-decoration-color: #1C3661;
+   text-emphasis-color: #1C3661;
+   background-color: #5581A8;
+    
+}
+
+.Logout { text-align: center;
+   font-size: 15px;
+   color: #1C3661;
+   text-decoration-color: #1C3661;
+   text-emphasis-color: #1C3661;
+   background-color: #5581A8;}
